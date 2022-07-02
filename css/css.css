@@ -1,0 +1,57 @@
+*{margin: 0;padding: 0;list-style: none;font-family: 'Tai Heritage Pro', serif;color: #555;}
+    a{text-decoration: none;color: inherit;}
+    body::-webkit-scrollbar {display: none;}
+    header{width: 100%;height:60px;background-color:#64b9b2;position:fixed;left: 0;top: 0;z-index: 99;}
+    #header_box{width: 1400px;height: 60px;margin: auto;}
+    #logo{width: 200px;height: 60px;line-height: 60px;float: left;text-align: center;}
+    #logo>img{width:160px;margin: auto;vertical-align: middle;}
+    #header_icon_box{float: right;width:200px;height: 60px;}
+    #header_icon_box>li{float: left;width:24px;line-height: 60px;margin-left:10px;}
+    #header_icon_box>li:nth-child(1){margin-left: 80px;}
+    #header_icon_box>li>img{width: 100%;vertical-align: middle;}
+    #header_menu{width:1000px;height: 60px;display: inline-block;margin: auto;text-align: center;}
+    #header_menu>li{width: 120px;height: 60px;display: inline-block;margin: 0 20px;line-height: 60px;font-weight: 400;color: #000;font-size: 18px;letter-spacing: -0.5px;}
+    /*  */
+    #t1_title{width:100%;height:740px;margin: auto;background: url(../images/t1_sub1_bg.jpg)center no-repeat;background-size: cover;overflow: hidden;}
+    #t1_title_textbox{width:500px;height: 400px;margin-top:100px;margin-left: 100px;}
+    #t1_title_textbox>h2{font-size:40px;margin-top: 50px;opacity: 0;}
+    #t1_title_textbox>p{margin-top: 80px;font-size: 20px;opacity: 0;}
+    /*  */
+    #t1_menubar{width: 1600px;height: 160px;margin: auto;background-color:rgba(255, 255, 255, 0.397);border-radius: 160px;margin-top: -80px;font-size: 16px;opacity: 0;}
+    #t1_menu_left{float: left;margin-left: 100px;margin-top:40px;}
+    #t1_menu_left>p{float: left;margin-right:60px;}
+    #t1_menu_left>ul{float: left;}
+    #t1_menu_left>ul>li{float: left;margin-right: 100px;text-align: right;cursor: pointer;}
+    #t1_menu_right{float: right;margin-right: 100px;margin-top: 40px;}
+    #t1_menu_right>p{float: left;margin-right: 20px;}
+    #t1_menu_right>ul{float: left;cursor: pointer;}
+    #t1_menubar div ul li{position: relative;}
+    #t1_menubar div ul li img{width:10px;vertical-align: middle;}
+    .t1_click{height: 80px;position: absolute;left:0;bottom:-80px;line-height: 23px;font-size: 14px;padding: 10px;box-sizing: border-box;display: none;}
+    .t1_click>li:hover{text-decoration: underline;cursor: pointer;}
+    /*  */
+    #t1_menubox{width: 1600px;margin: auto;margin-top:200px;}
+    #t1_menubox>ul{width: 100%;}
+    #t1_menubox>ul>li{width: 392.5px;height: 392.5px;margin-right: 10px;margin-bottom: 10px;float: left;position: relative;overflow: hidden;}
+    #t1_menubox>ul>li:nth-child(1),#t1_menubox>ul>li:nth-child(12){width: 795px;height: 795px;}
+    #t1_menubox>ul>li:nth-child(3),#t1_menubox>ul>li:nth-child(5),#t1_menubox>ul>li:nth-child(9),#t1_menubox>ul>li:nth-child(12){margin-right: 0;}
+    #t1_menubox>ul>li>img{width: 100%;transition: 0.5s;}
+    #t1_menubox>ul>li:nth-child(13),#t1_menubox>ul>li:nth-child(14){margin-top: -402px;}
+    .hover_box{width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.5);position: absolute;left:-392.5px;top: 0;transition: 0.5s;padding: 20px;box-sizing: border-box;}
+    .hover_box>h3{color: #fff;margin-top:50px;font-size: 24px;}
+    .hover_box>p{color: #fff;margin-top: 50px;}
+    .hover_box>ul{margin-top: 30px;margin-left:26px;}
+    .hover_box>ul>li{color: #fff;list-style:circle;}
+    #t1_menubox>ul>li:hover>.hover_box{left: 0;}
+    #t1_menubox>ul>li:nth-child(1):hover>img,#t1_menubox>ul>li:nth-child(12):hover>img{transform:scale(1.1);}
+    /*  */
+    footer{width: 100%;height:112px;box-sizing: border-box;position: relative;z-index: 999;margin-top:-2px;background-color:#64b9b2;line-height: 100px;padding: 10px 200px;font-size: 14px;clear: both;}
+    footer>p{width:260px;float: left;margin-left: 200px;color: #000;}
+    #footer_menu{width:700px;float: left;margin: auto;}
+    #footer_menu>li{display: inline-block;margin-right:20px;color: #000;}
+    #lag{float: left;}
+    #lag>li{color: #000;position: relative;}
+    #lag>li>img{width:12px;vertical-align: middle;}
+    .hover_lag{width: 100px;position: absolute;text-align: center;left: 0;top:-50px;line-height: 20px;display: none;}
+    .hover_lag>li{color: #000;}
+    #lag>li:hover>.hover_lag{display: inline-block;}
